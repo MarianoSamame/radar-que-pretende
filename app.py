@@ -369,7 +369,7 @@ with tab1:
         st.write("")
         st.write("")
         # CAMBIO BOTÓN UNIFICADO
-        btn_buscar_negocio = st.button("🚀 Iniciar radar de competencia", use_container_width=True,
+        btn_buscar_negocio = st.button("🔍 Buscar Negocio", use_container_width=True,
                                        key="btn_radar_negocio")
 
     # CAMBIO 2: UPLOADER EN TAB 1
@@ -404,7 +404,7 @@ with tab2:
         st.write("")
         st.write("")
         # CAMBIO BOTÓN UNIFICADO
-        btn_validar_rubro = st.button("🚀 Iniciar radar de competencia", use_container_width=True, key="btn_radar_rubro")
+        btn_validar_rubro = st.button("🔍 Buscar Rubro", use_container_width=True, key="btn_radar_rubro")
 
     if btn_validar_rubro and len(dir_input) > 5 and rubros_input:
         with st.spinner("Validando dirección..."):
